@@ -4,42 +4,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RCAP Something Something</title>
 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-            overflow-x: hidden;
-            background-color: #f8f8f8;
-        }
-
-        a {
-            text-decoration: none;
-            color: #f0f0f0;
-            transition: 0.3s;
-        }
-
-        .headerlinks:hover {
-            transition: 0.3s;
-            color: #6abba9;
-        }
-
-        #links {
-            border: solid 0.5px;
-            padding-top: 0.5em;
-            padding-bottom: 0.5em;
-            border-color: #3d5a80;
-            background-color: #3d5a80;
-            position: absolute;
-            width: 100%;
-            top: 0px;
-            left: 0px;
-        }
-
         #pageheader {
             transition: 0.3s;
             background-color: #d1d8f7;
-            padding: 10em;
+            padding: 12vw;
+        }
+
+        #faqlist {
+            padding: 2%;
+            border: solid 1px #f5f5f5;
+            background-color: #f5f5f5;
+        }
+
+        #questions {
+            padding: 1%;
         }
     </style>
 </head>
@@ -52,14 +33,62 @@
     </div>  
 
     <section id="pageheader">
-        <h1 style="text-align: center; font-size: 48px;">Frequently Asked Questions</h1>
+        <h2 style="text-align: center; font-size: 48px;">Frequently Asked Questions</h2>
         <h3 style="text-align: center; font-weight: 300;">Addressing concerns that arise.</h3>
     </section>
 
-    <section>
-        
+    <section id="faqlist">
+        <ul>
+            <li>
+                <h2>How does the project address the "accessibility gap" specifically in the context of mathematical symbols&#63;</h2>
+                <p>Visually impaired children often struggle with complex symbols and graphs because tactile and auditory senses alone are sometimes insufficient for mastering them. Six Dots bridges this gap by integrating Braille labels directly under card values and using customized indents to simplify the identification of arithmetic operators and numerical sets.</p>
+            </li>
+
+            <br>
+            
+            <li>
+                <h2>What was the rationale behind choosing cardstock over other tactile materials like plastic or 3D-printed filaments&#63;</h2>
+                <p>Cardstock was selected because it is significantly thicker and more durable than regular paper, providing the necessary structural integrity for Braille embossing using a slate tool. It also keeps the prototype assembly budget between ₱500 and ₱1,000, ensuring the solution remains cost-effective and easy to reproduce.</p>
+            </li>
+
+            <br>
+
+            <li>
+                <h2>How is the "S.M.A.R.T." framework applied to the project’s production goals&#63;</h2>
+                <p>The project defines specific, measurable targets, such as producing a physical prototype set of 45–50 cards categorized into three distinguishable types (Point cards, Math Set 1, and Math Set 2) by April 2026. This ensures the innovation is both time-bound and achievable within the Senior High School Research Capstone timeline.</p>
+            </li>
+
+            <br>
+
+            <li>
+                <h2>What measures are taken to ensure the gameplay is truly collaborative rather than just "accessible">&#63;</h2>
+                <p>Unlike traditional games that rely heavily on visual elements, this project uses high-contrast colors and Braille text simultaneously. This design philosophy ensures that sighted and visually impaired players can interpret the same game state at the same time, promoting inclusive social interaction.</p>
+            </li>
+
+            <br>
+
+            <li>
+                <h2>How does the implementation schedule manage the risks associated with design viability&#63;</h2>
+                <p>The project utilizes a three-week iterative timeline. During the first week, layouts are drafted and consulted with experts to check for viability; in the second week, a physical prototype is produced; and in the third week, user testing with visually impaired participants is conducted to identify and address any unintended design effects.</p>
+            </li>
+
+            <br>
+
+            <li>
+                <h2>What role does the "3-in-1 corner puncher" play in the user experience design&#63;</h2>
+                <p>The puncher is used to create unique physical indents that serve as a tactile "tagging" system. This allows users to differentiate between card categories (such as Math Set 1 versus Math Set 2) purely by feeling the shape of the card corners, enabling independent gameplay without the need for a sighted moderator.</p>
+            </li>
+        </ul>
     </section>
-
-
 </body>
+
+<footer>
+    <div>
+        <img src="logo.png" alt="" style="width: 30%; height: auto; padding: 30px;">
+    </div>
+        
+    <div style="padding-top: 5vw;">
+        <span style="font-weight: 300; color: #f0f0f0;">Bl. Pier Giorgio Frassati, O.P. Bldg., University of Santo Tomas, Espa&ntilde;a Blvd.,<br /> Sampaloc, Manila, Philippines 1008<br /><br />&#40;&#43;63&#41; 969 229 9291<br />insertlegitimateemail@ust.edu.ph</span>
+    </div>
+    </footer>
 </html>
