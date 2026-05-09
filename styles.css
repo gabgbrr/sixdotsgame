@@ -15,8 +15,11 @@
         }
 
         
-        @media screen and (max-width: 800px) {
-                body {transform: scale(2); background-color: #000;}
+        @media screen and (max-width: 600px) {
+                header, body {font-size: 6vw;}
+                h1 {font-size: 10vw;}
+                p {font-size: 6vw;}
+                #missiv_ib {display: block;}
         }
 
         h1 {
