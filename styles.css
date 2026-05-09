@@ -16,7 +16,7 @@
 
         
         @media screen and (max-width: 600px) {
-                body {transform: scale(2);}
+                body {transform: scale(2); background-color: #000;}
         }
 
         h1 {
