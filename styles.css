@@ -17,8 +17,7 @@
         
         @media screen and (max-width: 600px) {
              /* Your mobile-only overrides go here */
-            .container { width: 100%; padding: 10px; }
-            .sidebar { display: none; }
+            body { transform: scale(0.5);
         }
 
         h1 {
