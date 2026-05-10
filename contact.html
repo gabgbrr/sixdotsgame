@@ -1,55 +1,66 @@
+<!--I am gladly accepting code suggestions to hone my web development skills.-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Six Dots | Contact Page</title>
+    <title>Six Dots | Inquiry</title>
 
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    
     <style>
-        #img_placeholder {
-            transition: 0.5s;
-            border: solid 1px;
-            border-radius: 2px;
-            object-fit: cover;
+        #contactform {
+            border: solid 1px #f8e4a2;
+            border-radius: 25px;
+            background-color: #f8e4a2;
+            margin-left: 12vw;
+            margin-right: 12vw;
+            margin-bottom: 5vw;
         }
 
-        #img_placeholder:hover {
-            transition: 0.3s;
-            transform: scale(1.05);
-        }
-
-        #member_pl {
-            padding: 4em;
-        }
-
-        #subtext {
-            font-weight: 300;
+        .cf_input {
+            font-family: "Inter";
+            font-size: 1.2vw;
+            background-color: #f0f0f0;
+            border-color: transparent;
+            position: relative;
+            left: 30%;
         }
     </style>
 </head>
 <body>
-    <div id="links">
-        <img src="logo.png" alt="RCAP Product Logo" style="object-fit: cover; padding-left: 1em;" width="70" height="70"><!--300x300 best-->
-            <a href="index.html" style="padding-left: 5em;" class="headerlinks">Home</a>
-            <a href="ourinfo.html" style="padding-left: 3em;" class="headerlinks">About</a>
-            <a href="contact.html" style="padding-left: 3em;" class="headerlinks">Contact Us</a>
-    </div>  
+    <div id="header">
+        <img src="logo.png" alt="" width="200" height="100" style="object-fit: cover;">
+        <a href="index.html" class="headerlinks" style="padding-left: 5%">Home</a>
+        <a href="ourinfo.html" class="headerlinks">About Us</a>
+        <a href="prototype.html" class="headerlinks">Our Prototype</a>
+        <a href="faq.html" class="headerlinks">FAQ</a>
+        <a href="https://form.jotform.com/261254487578066" style="padding-left: 3em;" class="headerlinks">Inquire</a>
+    </div>
 
     <section id="pageheader">
-        <h1 style="text-align: center; font-size: 48px;">Contact Us</h1>
-        <h3 style="text-align: center; font-weight: 300;">Under Construction</h3>
+        <h1 style="text-align: center; font-size: 4vw;">Contact Us</h1>
+        <h3 style="text-align: center; font-weight: 400;"></h3>
     </section>
 
     <section id="contactform">
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name"><br />
-        <input type="text" placeholder="Email Address"><br />
-        <input type="text" placeholder="Contact Information">
+        <input type="text" placeholder="First Name" class="cf_input">
+        <input type="text" placeholder="Last Name" class="cf_input"><br>
+        <input type="text" placeholder="Email Address" class="cf_input"><br>
+        <input type="text" placeholder="Contact Information" class="cf_input">
     </section>
-
 </body>
+
+    <footer>
+        <div>
+            <img src="logo.png" alt="" style="width: 30%; height: auto; padding: 30px;">
+        </div>
+        <div style="padding-bottom: 2vw; padding-top: 2vw;">
+            <span style="font-weight: 300; color: #000;">Bl. Pier Giorgio Frassati, O.P. Bldg., University of Santo Tomas, Espa&ntilde;a Blvd.,<br /> Sampaloc, Manila, Philippines 1008<br /><br />&#40;&#43;63&#41; 969 229 9291<br />insertlegitimateemail@ust.edu.ph</span>
+        </div>
+    </footer>
+
 </html>
